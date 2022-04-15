@@ -1,0 +1,13 @@
+.highlight {
+    background-color: rgb(149, 206, 57);
+}
+
+section {
+    height: 320px;
+    overflow: auto;
+}
+
+.svg-inline--fa .fa-sticky-note .fa-w-14 {
+    width: 12px;
+    height: 12px;
+}

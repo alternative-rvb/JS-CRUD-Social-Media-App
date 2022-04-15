@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap");
+
+#fx {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 7rem;
+    text-align: center;
+}
+
+.char {
+    font-variation-settings: 'wght'var(--weight, 100);
+    color: hsl(var(--hue), calc(var(--saturation) * 1%), 65%);
+}

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Nunito+Sans|Podkova&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	margin: 0 auto;
+	min-height: calc(100vh - 2px);
+	color: #222;
+	padding: 0 1rem;
+}
+
+
+#color-01 {
+	color: #023373;
+}
+
+#color-02 {
+	color: #8C1C03;
+}
+
+#color-03 {
+	color: #023373;
+}
+
+#color-04 {
+	color: #F24E29;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 1rem 0;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 4rem;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Podkova', serif;
+	font-size: 2rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0.4rem;
+	color: initial;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gridContainer {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+#formAjout {
+	grid-column-end: span 2;
+}
+
+input,
+label {
+	margin-bottom: 0.5rem;
+}
+
+input {
+	background: rgba(255, 255, 255, 0.7);
+	border: none;
+	line-height: 1rem;
+}
+
+button {
+	background: rgba(0, 0, 0, 0.2);
+	color: #fff;
+	border: none;
+	padding: 0.5rem 0.5rem;
+	border-radius: 5px;
+	transition: all 200ms;
+	margin: 1rem 0;
+}
+
+button:hover {
+	background: rgba(0, 0, 0, 0.1);
+	border: none;
+}
+
+.default {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	min-height: 20vh;
+	padding: 1rem;
+}
+
+.tache {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	min-height: 20vh;
+	padding: 1rem;
+	color: #fff;
+}
+
+ul {
+	text-align: left;
+}
+
+.check {
+	box-shadow: none;
+	display: block;
+	transform: scale(0.8);
+	transition: all 500ms;
+}
+
+.check::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f276";
+	font-weight: 900;
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+/* li {
+	cursor: pointer;
+}
+
+li:hover::before {
+	content: "\f00c";
+} */
+
+/* .ok {
+	text-decoration: line-through;
+}
+
+.ok::before {
+	content: "\f00c";
+	text-decoration: none;
+
+} */
+
+.done {
+	text-align: right;
+}
+
+section {
+	margin: 1rem;
+}
+
+#sectionGestionTaches {
+	flex: 1 1 300px;
+}
+
+#sectionAnnee2019 {
+	flex: 3 3 900px;
+}
+
+form>* {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* li::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f067";
+	font-size: 0.8rem;
+	margin-right: 0.4rem;
+} */
+
+
+/*-----------------------------*/
+.done-true {
+    text-decoration: line-through;
+
+}
+ul li {
+    list-style: none;
+}

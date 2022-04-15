@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <!-- Simple CSS CDN Minified version -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <!-- FONT AWSOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS master -->
+    <link rel="stylesheet" href="./css/master.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Social Media App</h1>
+      <div class="container">
+        <div class="left">
+          <form id="form">
+            <label for="post"> Write your post here</label>
+            <br /><br />
+            <textarea name="post" id="input" cols="30" rows="10"></textarea>
+            <br />
+            <br />
+            <div id="msg"></div>
+            <button type="submit">Post</button>
+          </form>
+        </div>
+        <div class="right">
+          <h3>Your posts here</h3>
+          <div id="posts">
+            <div>
+              <p>Hello world post 1</p>
+              <span class="options">
+                <i class="fas fa-edit"></i>
+                <i class="fas fa-trash-alt"></i>
+              </span>
+            </div>
+          
+            <div >
+              <p>Hello world post 2</p>
+              <span class="options">
+                <i class="fas fa-edit"></i>
+                <i class="fas fa-trash-alt"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
